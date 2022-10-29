@@ -23,8 +23,8 @@ contract TodoList{
     );
 
     constructor() public{
-        createTask("Love Jesus");
-        createTask("Love Father");
+        createTask("Love the Lord");
+        createTask("Complete today's Bible reading");
     }
 
     function createTask(string memory _content) public{
